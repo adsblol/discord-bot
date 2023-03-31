@@ -22,4 +22,5 @@ async def on_message(message):
                 continue
             await m.delete()
 
+
 client.run(os.environ["ADSBLOL_DISCORD_BOT_TOKEN"])
